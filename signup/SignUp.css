@@ -1,0 +1,96 @@
+body {
+    /*background: #C5E1A5;*/
+    background-image:url(salon6.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    opacity: 0.9;
+}
+form {
+    display: inline-grid;
+    width: 60%;
+    margin: 4% 20%;
+    background: #efefef;
+    padding: 60px 120px 80px 120px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+label {
+    display: inline-grid;
+    position: relative;
+    margin: 40px 0px;
+}
+.label-txt {
+    position: absolute;
+    top: -1.6em;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(120,120,120);
+    transition: ease .3s;
+}
+.input {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    margin-bottom: -12px;
+}
+
+.line-box {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #BCBCBC;
+}
+
+.line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: darkslategrey;
+    transition: ease .6s;
+}
+
+.input:focus + .line-box .line {
+    width: 100%;
+}
+
+.label-active {
+    top: -3em;
+}
+
+button {
+    font-family : Roboto;
+    display: inline-block;
+    padding: 12px 24px;
+    background: rgb(220,220,220);
+    font-weight: bold;
+    /*color: rgb(120,120,120);*/
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+button:hover {
+    background: lightslategrey;
+    color: black;
+}
+
+.h3, h3 {
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: 550;
+    text-align: center;
+    color: lightslategrey;
+    margin-top: 40px;
+}
+

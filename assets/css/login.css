@@ -1,0 +1,152 @@
+*{
+    padding: 7px;
+    text-align: center;
+}
+
+body {
+    background-image:url(salon6.jpg);
+    background-size: 100% 100%;
+    opacity: 0.9;
+    font-family: 'Roboto';
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    /*height: 500px;*/
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 6px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.title-form {
+    text-align: center;
+    padding: 30px 0 15px 0;
+    margin:0;
+    color: lightslategrey;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.input_form{
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgb(230 237 250)!important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 40px;
+    /* margin-left: 46px; */
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+form {
+    margin-top: 2px;
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+
+.input_form:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, lightslategrey, #41819d);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* margin-left: 7%; */
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+    text-align: center;
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: lightslategrey;
+    margin-top: 45px;
+    font-size: 13px;
+
+}
+
+.register{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: lightslategrey;
+    text-decoration: none
+}
+.error{
+    color: #c20202;
+    background: #ffadad;
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+}
+.successful{
+    color: #086501;
+    background: #b7ffad;
+    padding-right: 30px;
+    display:block;
+    margin: auto;
+}
+.btn-reset-pass{
+    background: #41819d!important;
+    color:white;
+}
+.back-login{
+    display: block;
+    text-decoration: none!important;
+    color: #41819d;
+}
+.forgot-pass{
+    font-size: 11pt;
+}
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.social-container a{
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px 6px;
+    height: 40px;
+    width: 40px;
+}
+.social-container a:hover{
+    background: #41819d;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
